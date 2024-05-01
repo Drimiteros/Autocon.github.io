@@ -34,10 +34,10 @@ body{
 
 nav{
 	margin: none;
-	padding: 0.5rem 2rem;
+	padding: 1.2rem 2rem;
 	display: flex;
-	justify-content: space-between;
-	background-color: rgb(0, 0, 0, 0.8);
+	justify-content: center;
+	background-color: rgb(0, 0, 0, 0);
 }
 
 .nav-links{
@@ -56,22 +56,29 @@ nav{
 .link a{
 	position: relative;
 	padding-bottom: 0.75rem;
-	color: white;
+	color: #ffffff;
 }
 
 .link a::after{
 	content: "";
 	position: absolute;
-	height: 3px;
+	height: 5px;
+	border-radius: 10rem;
 	width: 0;
 	bottom: 0;
 	left: 0;
-	background-color: #34eb95;
+	background-color: #00fff2;
 	transition: all 0.3s ease;
 }
 
 .link a:hover::after{
 	width: 70%;
+}
+
+.link2 a{
+	position: relative;
+	padding-bottom: 0.75rem;
+	color: #ffffff;
 }
 
 .btn{
