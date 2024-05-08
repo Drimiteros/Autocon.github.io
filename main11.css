@@ -248,7 +248,8 @@ header .content3 a{
 	margin-left: 20rem;
 	margin-bottom: -5rem;
 	box-shadow: 0 0 400px 60px #49728d;
-	animation: fadeIn2 1s ease-in-out forwards;
+	margin-top: 6rem;
+	/*animation: fadeIn2 1s ease-in-out forwards;*/
 }
 
 @keyframes fadeIn2 {
