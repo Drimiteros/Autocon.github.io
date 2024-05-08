@@ -244,7 +244,10 @@ header .content3 a{
 }
 
 .blur{
-	box-shadow: 0 0 19000px 40px #45a7a7c0;
+	max-width: 40rem;
+	margin-left: 20rem;
+	margin-bottom: -5rem;
+	box-shadow: 0 0 400px 60px #49728d;
 	animation: fadeIn2 1s ease-in-out forwards;
 }
 
