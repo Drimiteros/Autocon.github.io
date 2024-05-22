@@ -211,7 +211,7 @@ nav{
 .gradient-content{
 	padding: 3rem;
 	max-width: 45rem;
-	max-height: 70.3rem;
+	max-height: 47rem;
 	background: rgba(255, 255, 255, 1);
 	border-radius: 10px;
 	align-items:center;
@@ -267,10 +267,10 @@ header .content h4{
 }
 
 header .content h4:hover{
-	color: #ff0000;
+	color: #35898b;
 	justify-content: center;
 	display: flex;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
 header .content h3{
