@@ -37,7 +37,7 @@ nav{
 	padding: 1.2rem 2rem;
 	display: flex;
 	justify-content: center;
-	background-color: rgb(0, 0, 0, 0);
+	background-color: rgb(0, 0, 0, 0.3);
 }
 
 .nav-links{
@@ -260,10 +260,11 @@ header .content4 a{
 	justify-content:space-evenly;
 	display:flex;
 	align-items:center;
-	background-color: #000;
+	background-color: #00000081;
 	padding: 1.5rem;
-	margin-left: -10rem;
-	margin-right: -8.45rem;
+	border-radius: 10px;
+	max-width: 65rem;
+	margin-left: 19rem;
 }
 
 .blur{
