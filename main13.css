@@ -327,13 +327,14 @@ header .content4 a{
 }
 
 header .content5 a{
-	color: #546b67;
+	color: #678882;
 	font-size: 1.5rem;
     font-style:oblique;
 	font-weight: 1;
-	justify-content: left;
 	display: flex;
-    margin-left: 0.3rem;
+	align-items: center;
+	padding: 1.5rem;
+	text-shadow: 0 0 50px 6px #0000008c;
 }
 
 header .content6 a{
@@ -348,9 +349,17 @@ header .content6 a{
 header .content7 a{
     content: "";
 	border-radius: 20rem;
-	background-color: #00fff2;
+	background-color: #678882;
 	transition: all 0.3s ease;
     margin-top: -2rem;
     height: 2rem;
 	width: 5%;
+}
+
+hr {
+	margin-left: 0rem;
+	margin-right: 0rem;
+	border: none; 
+	height: 1px; 
+	background-color: #696969;
 }
