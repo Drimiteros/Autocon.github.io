@@ -288,6 +288,7 @@ nav {
 	.container2 a {
 		color: #ffffff;
 		font-size: 0.6rem;
+		font-weight: bold;
 		font-weight: 1;
 		justify-content: center;
 		display: flex;
@@ -310,7 +311,7 @@ nav {
    	 	justify-content: center;
     	align-items: center;
     	image-rendering: optimizeQuality;
-		margin-top: -3rem;
+		margin-top: -4rem;
 		margin-left: -0.3rem;
     }
 	.gradient-content{
@@ -319,9 +320,9 @@ nav {
 		margin-top: 24rem;
 		margin-bottom: -25rem;
 		min-width: 25rem;
-		max-height: 27rem;
+		max-height: 30rem;
 		max-width: 25rem;
-		min-height: 27rem;
+		min-height: 30rem;
 		background: rgba(255, 255, 255, 1);
 		border-radius: 10px;
 		color: rgb(66, 66, 66);
@@ -330,6 +331,7 @@ nav {
 	.content3 a{
 		padding: 0rem;
 		font-size: 1rem;
+		font-weight: bold;
 		color: #000000cc;
 	}
 }
