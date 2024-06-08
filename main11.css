@@ -310,18 +310,18 @@ nav {
    	 	justify-content: center;
     	align-items: center;
     	image-rendering: optimizeQuality;
-		margin-top: 3rem;
+		margin-top: -3rem;
 		margin-left: -0.3rem;
     }
 	.gradient-content{
 		padding: 1rem;
 		margin-left: -26rem;
-		margin-top: 14rem;
+		margin-top: 24rem;
 		margin-bottom: -25rem;
 		min-width: 25rem;
-		max-height: 19rem;
+		max-height: 27rem;
 		max-width: 25rem;
-		min-height: 19rem;
+		min-height: 27rem;
 		background: rgba(255, 255, 255, 1);
 		border-radius: 10px;
 		color: rgb(66, 66, 66);
@@ -329,7 +329,7 @@ nav {
 	}
 	.content3 a{
 		padding: 0rem;
-		font-size: 0.6rem;
+		font-size: 1rem;
 		color: #000000cc;
 	}
 }
