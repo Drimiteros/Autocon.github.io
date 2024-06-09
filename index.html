@@ -43,20 +43,29 @@
 	<br><br><br><br><br><p>Total times visited: <span id="visit-count"></span></p><br><br><br><br><br><br>
 
 	<script>
-        // Initialize the visit count from sessionStorage
-        var visitCount = sessionStorage.getItem('visitCount');
+        // Initialize the visit count from localStorage
+        var visitCount = localStorage.getItem('visitCount');
 
-        // Check if visitCount is null or undefined (first visit)
+        // Check if visitCount is null or undefined (not found in localStorage)
         if (visitCount === null || visitCount === undefined) {
-            // Set visitCount to 1 for the first visit
+            // If not found in localStorage, try sessionStorage
+            visitCount = sessionStorage.getItem('visitCount');
+        }
+
+        // Check if visitCount is null or undefined (not found in sessionStorage)
+        if (visitCount === null || visitCount === undefined) {
+            // If not found in sessionStorage, initialize to 1
             visitCount = 1;
         } else {
-            // Increment the visit count for subsequent visits
+            // If found in either localStorage or sessionStorage, increment by 1
             visitCount = parseInt(visitCount) + 1;
         }
 
         // Store the updated visit count in sessionStorage
         sessionStorage.setItem('visitCount', visitCount);
+
+        // Store the visit count in localStorage as well
+        localStorage.setItem('visitCount', visitCount);
 
         // Display the visit count
         document.getElementById('visit-count').innerText = visitCount;
