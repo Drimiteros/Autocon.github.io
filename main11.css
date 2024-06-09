@@ -352,7 +352,6 @@ nav {
     	align-items: center;
     	image-rendering: optimizeQuality;
 		margin-top: -4rem;
-		margin-left: -0.4rem;
     }
 	.image2{
 		width: 100%;
@@ -368,9 +367,9 @@ nav {
 		margin-left: -26rem;
 		margin-top: 24rem;
 		margin-bottom: -25rem;
-		min-width: 25rem;
+		min-width: 26rem;
 		max-height: 30rem;
-		max-width: 25rem;
+		max-width: 26rem;
 		min-height: 30rem;
 		background: rgba(255, 255, 255, 1);
 		border-radius: 10px;
@@ -405,7 +404,7 @@ nav {
 		background-color: rgb(0, 0, 0, 0.4);
 		border-radius: 15px;
 		max-width: 22.5rem;
-		margin-top: 12rem;
+		margin-top: 13rem;
 		align-items: center;
 		justify-content: center;
 		box-shadow: 0px 0px 100px 10px #52615f;
