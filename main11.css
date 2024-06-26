@@ -132,7 +132,7 @@ nav {
 	width: 100%;
 	height: 100%;
 	scale: 60%;
-	image-rendering:inherit;
+	image-rendering:initial;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -179,12 +179,11 @@ nav {
 }
 
 .content7{
-	background-color: rgb(39, 39, 39);
+	background-color: rgb(39, 39, 39, 0);
 	border-radius: 15px;
 	max-inline-size: 82rem;
 	align-items: center;
 	justify-content: center;
-	box-shadow: 0px 0px 100px 10px #a7c6c3;
 	padding: 7rem;
 }
 
@@ -209,9 +208,9 @@ nav {
 	transition: all 0.3s ease;
 	font-size: 1.2rem;
 	color: #000000;
-	background-color: #15709b8c;
-	border-color: #15709b8c;
-	border-width: 0;
+	background-color: #15719b00;
+	border-color: #000000;
+	border-width: 0.3rem;
 }
 
 .blur{
@@ -227,7 +226,101 @@ nav {
 	align-items:center;
 	justify-content: space-evenly;
 	background-color: #1f1f1f00;
-	padding: 9rem;
+}
+
+.box div{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: transparent;
+	border: 6px solid rgba(255,255,255,0.8);
+}
+
+.box div:nth-child(1){
+	top: 12%;
+	left: 42%;
+	animation: anime 5s linear infinite;
+}
+
+.box div:nth-child(2){
+	top: 70%;
+	left: 50%;
+	animation: anime 2s linear infinite;
+}
+
+.box div:nth-child(3){
+	top: 17%;
+	left: 6%;
+	animation: anime 4s linear infinite;
+}
+
+.box div:nth-child(4){
+	top: 20%;
+	left: 60%;
+	animation: anime 5s linear infinite;
+}
+
+.box div:nth-child(5){
+	top: 67%;
+	left: 70%;
+	animation: anime 1s linear infinite;
+}
+
+.box div:nth-child(6){
+	top: 80%;
+	left: 70%;
+	animation: anime 7s linear infinite;
+}
+
+.box div:nth-child(7){
+	top: 60%;
+	left: 80%;
+	animation: anime 7s linear infinite;
+}
+
+.box div:nth-child(8){
+	top: 32%;
+	left: 25%;
+	animation: anime 2s linear infinite;
+}
+
+.box div:nth-child(9){
+	top: 90%;
+	left: 25%;
+	animation: anime 4s linear infinite;
+}
+
+.box div:nth-child(10){
+	top: 60%;
+	left: 8%;
+	animation: anime 3s linear infinite;
+}
+
+@keyframes anime{
+	0%{
+		transform: scale(0) translateY(0) rotate(0);
+		opacity: 1;
+		border: 6px solid #00ffaa;
+		background-color: #00ffbf88;
+	}	
+	50%{
+		border: 6px solid #00fff2;
+		background-color: #00fff288;
+	}
+	100%{
+		transform: scale(1) translateY(-90px) rotate(560deg);
+		opacity: 0;
+		background-color: #5a5a5a75;
+		border: 6px solid #5a5a5a;
+	}
+}
+
+
+#particles-js{
+	width: 60%;
+	margin-left: 18rem;
+	margin-top: -20rem;
+	margin-bottom: -7rem;
 }
 
 .hamburger {
