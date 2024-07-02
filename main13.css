@@ -221,7 +221,7 @@ nav {
 
 .gradient-content{
 	padding: 3rem;
-	max-width: 45rem;
+	max-width: 54.2rem;
 	max-height: 67rem;
 	background: rgba(255, 255, 255, 1);
 	border-radius: 10px;
@@ -232,8 +232,8 @@ nav {
 }
 
 .content4{
-	padding-left: 6rem;
-	padding-right: 6rem;
+	padding-top: 1rem;
+	font-size: 1rem;
 	align-items:center;
 	justify-content: space-between;
 	display: flex;
@@ -331,10 +331,13 @@ img{
 
 .content4 a{
 	color: #3a3a3a;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
+    font-style:oblique;
 	font-weight: 1;
-	justify-content: left;
 	display: flex;
+	align-items: center;
+	padding: 1.5rem;
+	text-shadow: 0 0 50px 6px #0000008c;
 }
 
 .content5 a{
@@ -364,7 +367,7 @@ img{
 	transition: all 0.3s ease;
     margin-top: -2rem;
     height: 2rem;
-	width: 5%;
+	width: 7%;
 }
 
 .nav-btn{
