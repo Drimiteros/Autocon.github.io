@@ -239,7 +239,7 @@ nav {
 	display: flex;
 }
 
-.button_content{
+.button_content a{
 	display: flex;
 	align-items:center;
 	justify-content:center;
@@ -371,11 +371,59 @@ img{
 }
 
 .nav-btn{
-	list-style: none;
-	display: flex;
-	align-items: center;
 	justify-content: center;
-	gap: 3rem;
+	display: flex;
+}
+
+.nav-btn p{
+	color: #333333;
+	justify-content: center;
+	display: flex;
+	font-size: 1.5rem;
+	padding: 2rem;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+.nav-btn p2{
+	color: #333333;
+	justify-content: center;
+	display: flex;
+	font-size: 1.5rem;
+	padding: 2rem;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+.nav-btn p3{
+	color: #333333;
+	justify-content: center;
+	display: flex;
+	font-size: 1.5rem;
+	padding: 2rem;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+.nav-btn p:hover{
+	color: #008cff;
+	justify-content: center;
+	display: flex;
+	font-weight: bold;
+}
+
+.nav-btn p2:hover{
+	color: #a200ff;
+	justify-content: center;
+	display: flex;
+	font-weight: bold;
+}
+
+.nav-btn p3:hover{
+	color: #ff8800;
+	justify-content: center;
+	display: flex;
+	font-weight: bold;
 }
 
 .box div{
@@ -463,4 +511,12 @@ img{
 		background-color: #5a5a5a75;
 		border: 6px solid #5a5a5a;
 	}
+}
+
+hr {
+	margin-left: 0rem;
+	margin-right: 0rem;
+	border: none; /* Remove default border */
+	height: 0.15rem;  /* Set the thickness */
+	background-color: #000; /* Set the color */
 }
