@@ -147,6 +147,16 @@ nav {
 	align-items: center;
 }
 
+.image4{
+	width: 100%;
+	height: 100%;
+	scale: 65%;
+	image-rendering:initial;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 .gradient-content{
 	margin-left: -15rem;
 	margin-bottom: -15rem;
@@ -163,12 +173,13 @@ nav {
 
 .gradient-content2{
 	padding: 3rem;
-	max-height: 43rem;
+	margin-left: 12rem;
+	margin-right: 12rem;
 	background: rgba(255, 255, 255, 1);
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 	color: rgb(66, 66, 66);
 	box-shadow: 0 0 50px 6px #0000008c;
 }
@@ -230,7 +241,8 @@ nav {
 
 .content8 a{
 	color: rgb(0, 0, 0);
-	font-size: 1.2rem;
+	font-weight: bold;
+	font-size: 2.2rem;
 	max-width: 55rem;
 	display: flex;
 	align-items: center;
@@ -239,12 +251,11 @@ nav {
 
 .content8 p{
 	color: #000000;
-	font-size: 2.2rem;
-	font-weight: bold;
+	font-size: 1.2rem;
 	max-width: 55rem;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .btn{
@@ -290,12 +301,11 @@ nav {
 	width: 200px;
 	padding: 0.1rem 0.5rem;
 	border-radius: 10px;
-	cursor: pointer;
 	transition: all 0.3s ease;
 	font-size: 1.2rem;
 	color: #000000;
-	background-color: #00c3ff;
-	border-color: #000000;
+	background-color: #00ffc8;
+	border-color: #00ffc8;
 	border-width: 0.3rem;
 }
 
