@@ -161,6 +161,18 @@ nav {
 	box-shadow: 0 0 50px 6px #0000008c;
 }
 
+.gradient-content2{
+	padding: 3rem;
+	max-height: 43rem;
+	background: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(66, 66, 66);
+	box-shadow: 0 0 50px 6px #0000008c;
+}
+
 .content3 a{
 	padding: 0.5rem;
 	font-size: 1.3rem;
@@ -216,6 +228,25 @@ nav {
 	padding: 7rem;
 }
 
+.content8 a{
+	color: rgb(0, 0, 0);
+	font-size: 1.2rem;
+	max-width: 55rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content8 p{
+	color: #000000;
+	font-size: 2.2rem;
+	font-weight: bold;
+	max-width: 55rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .btn{
 	height: 60px;
 	width: 200px;
@@ -238,6 +269,32 @@ nav {
 	font-size: 1.2rem;
 	color: #000000;
 	background-color: #15719b00;
+	border-color: #000000;
+	border-width: 0.3rem;
+}
+
+.btn2{
+	height: 60px;
+	width: 200px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	color: #ffffff;
+	background-color: rgb(27, 27, 27);
+	font-size: 1.2rem;
+	border-width: 0;
+}
+
+.btn2:hover{
+	height: 60px;
+	width: 200px;
+	padding: 0.1rem 0.5rem;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-size: 1.2rem;
+	color: #000000;
+	background-color: #00c3ff;
 	border-color: #000000;
 	border-width: 0.3rem;
 }
@@ -343,7 +400,6 @@ nav {
 		border: 6px solid #5a5a5a;
 	}
 }
-
 
 #particles-js{
 	width: 55%;
