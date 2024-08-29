@@ -1,0 +1,231 @@
+<html>
+    <head>
+        <script async src="https://tally.so/widgets/embed.js"></script>
+        <script>
+            window.TallyConfig = {
+            "formId": "nrVpQX",
+            "popup": {
+                "width": 506,
+                "emoji": {
+                "text": "👋",
+                "animation": "wave"
+                },
+                "layout": "modal",
+                "doNotShowAfterSubmit": true
+            }
+            };
+        </script>
+
+        <title>
+            Autocon Webpage
+        </title>
+	    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+            function fetchCurrencySymbol() {
+                fetch('https://ipapi.co/json/')
+                    .then(response => response.json())
+                    .then(data => {
+                        let currencySymbol = '$'; // Default to USD
+                        const euCountries = ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE']; // EU country codes
+
+                        if (euCountries.includes(data.country_code)) {
+                            currencySymbol = '€';
+                        } else {
+                            switch (data.country_code) {
+                                case 'US':
+                                    currencySymbol = '$';
+                                    break;
+                                case 'GB':
+                                    currencySymbol = '£';
+                                    break;
+                                case 'JP':
+                                    currencySymbol = '¥';
+                                    break;
+                                case 'IN':
+                                    currencySymbol = '₹';
+                                    break;
+                                case 'CA':
+                                    currencySymbol = 'C$';
+                                    break;
+                                // Add more cases as needed
+                                default:
+                                    currencySymbol = '$'; // Fallback to USD
+                            }
+                        }
+
+                        // Update all relevant currency symbols on the page
+                        document.querySelectorAll('.currency-symbol').forEach(element => {
+                            element.textContent = currencySymbol;
+                        });
+                    })
+                    .catch(error => console.error('Error fetching location:', error));
+            }
+        fetchCurrencySymbol();
+    });
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <div class = "image2">
+                <img src = "image2.png">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li class="link"><a href="index.html">Home</a></li>
+                    <li class="link" id = "requestButton"><a href="#">Request a feature</a></li>
+                    <li class="link" id = "downloadButton"><a href = "#">Download</a></li>
+                    <li class="link"><a href = "me.html">Fund support</a></li> 
+                </ul>
+            </nav>
+        </header>
+        <div class = "container3">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class = "container2">
+                <div class = "container">
+                    <H2>Autocon is an advanced multi-tool that<br>will automate and speedup tasks on<br>your PC easily! </H2>
+                    <br><br>
+                    <hr>
+                    <br><br>
+                    <p>Autocon is currently in development! Support this software at his early stages so that<br>it continues to receive updates with new features even after the official release!<br>Here are some of its current
+                        in development key uses: </p>
+                    <p><br><br>⏺️ Control the auto click rate, repeat time, interval and the position of the mouse on<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the screen. Great for applications that require a lot of clicking!
+                        <br><br>⏺️ Perform entire tasks by animating the cursor position, clicks and keyboard input<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;through playback or scripting! Great for spray / recoil control and 
+                        general task<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;automation!<br><br>⏺️ Track unauthorized cursor activity by viewing event logs!<br><br>⏺️ Lock your pointer with a password! Or prevent it from 
+                        accessing specific locations<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;on the screen!<br><br>⏺️ Control and share content between multiple devices locally with one set of <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;keyboard & mouse!</p>
+                    <br><br><br>
+                    <div class = "button">
+                        <button id = "subButton" class = "button1">Learn more</button>
+                    </div>
+                </div>
+                <div class = "image">
+                    <img src = "image33.png">
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br id = "target">
+        <div class = "image3">
+            <img src = "image3.png">
+        </div>
+        <div class = "bg">
+            <div class = "container5">
+                <p> About Autocon </p><br>
+            </div>
+            <div class = "container4">
+                <div class = "image4">
+                    <img src = "shield.png">
+                    <p>SECURE</p>
+                    <a>Autocon is 100% secure. No bloatware, no adds, no-nonsense! You can also use it as a way to protect your Desktop</a>
+                </div>
+                <div class = "image4">
+                    <img src = "fast.png">
+                    <p>FAST</p>
+                    <a>Autocon, made in C++, is blazingly fast! It uses the entire power of your system to simulate clicks and automate tasks.</a>
+                </div>
+                <div class = "image4">
+                    <img src = "code.png">
+                    <p>Reliable</p>
+                    <a>Autocon has a simple and visually appealing interface! And performs consistently under various conditions and workloads!</a>
+                </div>
+            </div>
+            <div class = "container7">
+                <p> News and updates </p><br>
+            </div>
+                <div class = "container6">
+                    <p>28/8/2024</p>
+                    <H3>Autocon-Basic Released!</H3>
+                    <a>I am happy to announce the release of Autocon-Basic version 2.3! Download below, its free! Try it and tell us your ideas. If you encounter any problems contact us at drimiteros2@gmail.com</a>
+                </div>
+            <br><br><br>
+            <div class = "container6a">
+                <p>22/8/2024</p>
+                <H3>Release schedule for Autocon-Magic</H3>
+                <a>Autocon-Magic is set to launch mid 2025! Wishlist it below with your Email, and stay tuned about the latest big news!</a>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+        <div class = "image3">
+            <img src = "image4.png">
+        </div>
+        <div class = "bg2">
+            <br><br id = "target3"><br><br><br>
+            <div class = "container8">
+                <p> Download </p>
+                <br>
+                <a>Autocon is currently in development and available exclusively for Windows x64 systems.<br>While the software is not yet released, you can stay informed about its progress and receive<br>
+                    updates by joining our mailing list. Simply submit your email below to be notified of any news and<br>release announcements.</a>
+                <br><br>
+            </div>
+            <div class = "container9">
+                <div class = "container10">
+                    <a>AUTOCON BASIC</a>
+                    <div class = "image5">
+                        <img src = "icon.png">
+                    </div>
+                    <a>0<span class="currency-symbol">$</span></a>
+                    <p>USER / LIFETIME</p>
+                    <br>
+                    <div class = "container11">
+                        <a>Autocon-Basic Alpha 2.0</a>
+                        <p>This version of Autocon includes the following features: <br><br>
+                            ✔️ Auto Clicker<br>✔️ Password cursor lock<br>✔️ Event logs<br>❌ Animate / Script input events<br>❌ Screen zone quarantine<br>❌ Multi-Device Control<br>&nbsp;+ &nbsp;&nbsp;More features to come!
+                        </p>
+                    </div>
+                    <br>
+                    <div class = "button">
+                        <a href="Release.zip"><button id = "subButton" class = "button1">Download</button></a>
+                    </div>
+                </div>
+                <div class = "container10">
+                    <a>AUTOCON MAGIC</a>
+                    <div class = "image5">
+                        <img src = "icon2.png">
+                    </div>
+                    <a>...<span class="currency-symbol">$</span></a>
+                    <p>USER / LIFETIME</p>
+                    <br>
+                    <div class = "container11">
+                        <a>Autocon-Magic</a>
+                        <p>This version of Autocon includes the following features: <br><br>
+                            ✔️ Auto Clicker<br>✔️ Password cursor lock<br>✔️ Event logs<br>✔️ Animate / Script input events<br>✔️ Screen zone quarantine<br>✔️ Multi-Device Control<br>&nbsp;+ &nbsp;&nbsp;More features to come!
+                        </p>
+                    </div>
+                    <br>
+                    <div class = "button">
+                        <a href="#tally-open=nrVpQX&tally-layout=modal&tally-width=476&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave&tally-auto-close=0"><button id = "subButton" class = "button1">Wishlist</button></a>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br><br><br><br>
+            <div class = "container8">
+                <p> Request features </p><br id = "target2">
+            </div>
+            <div class = "container12">
+                <iframe data-tally-src="https://tally.so/embed/nGLA7z?alignLeft=1&dynamicHeight=1" loading="lazy" width="100%" height="672" frameborder="0" marginheight="0" marginwidth="0" title="Customer Requests (Autocon)"></iframe>
+                <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+            </div>
+            <br><br><br><br><br><br><br><br>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {    
+                document.getElementById('subButton').addEventListener('click', (event) => {
+                    event.preventDefault();
+                    document.getElementById('target').scrollIntoView({ behavior: 'smooth' });
+                });
+                document.getElementById('requestButton').addEventListener('click', (event) => {
+                    event.preventDefault();
+                    document.getElementById('target2').scrollIntoView({ behavior: 'smooth' });
+                });
+                document.getElementById('downloadButton').addEventListener('click', (event) => {
+                    event.preventDefault();
+                    document.getElementById('target3').scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        </script>
+
+    </body>
+</html>
