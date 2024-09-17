@@ -97,13 +97,14 @@ h1 {
 }
 h2 {
     color: #363636;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .image {
-    scale: 80%;
+    scale: 60%;
     margin-top: 0rem;
-    margin-left: 2rem;
+    margin-left: -5rem;
+    margin-right: -13rem;
 	box-shadow: 0px 10px 50px 6px #006eff;
 }
 .image2 {
@@ -118,7 +119,7 @@ h2 {
     position: relative;
 }
 .image4 {
-    transform: scale(0.5);
+    transform: scale(0.4);
     margin-top: 10rem;
     text-align: center;
 }
@@ -136,13 +137,17 @@ h2 {
     justify-content: center;
     margin-top: -13rem;
 }
+.container2 p {
+    font-size: 0.8rem;
+}
+
 .container3 {
     flex-direction: column;
 }
 .container4 {
     display: flex;
     flex-direction: row;
-    margin-top: -15rem;
+    margin-top: -17rem;
 }
 .container4 p{
     display: flex;
@@ -173,34 +178,26 @@ h2 {
     margin-bottom: -2rem;
     color: #00295f;
 }
+.container5 p {
+    font-size: 2rem;
+}
 
 .container6 {
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 1rem;
-    margin-bottom: 1rem;
     background-color: #006eff;
     border-radius: 20px;
     max-width: 27rem;
     min-height: 1rem;
-    margin-bottom: -10rem;
-    box-shadow: 0px 6px 34px rgba(0, 0, 0, 0.6);
+    margin-bottom: -9rem;
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.6);
     transition: min-height 0.5s ease;
 }
 .container6:hover {
     cursor: pointer;
     min-height: 23rem;
-}
-.container6 a {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.1s ease-out, visibility 0.1s ease-out;
-}
-.container6:hover a {
-    opacity: 1;
-    visibility: visible;
-    transition: opacity 0.7s ease-in, visibility 0.7s ease-in;
 }
 .container6 p{
     align-items: center;
@@ -238,13 +235,13 @@ h2 {
     justify-content: center;
     text-align: center;
     padding: 1rem;
-    margin-bottom: 1rem;
+    margin-top: -1.5rem;
     background-color: #006eff;
     border-radius: 20px;
     max-width: 27rem;
     min-height: 1rem;
     margin-bottom: -10rem;
-    box-shadow: 0px 6px 34px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.6);
     transition: min-height 0.5s ease;
 }
 .container6a:hover {
@@ -281,15 +278,66 @@ h2 {
     margin-top: -2rem;
 }
 
+.container6b {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: #006eff;
+    border-radius: 20px;
+    max-width: 27rem;
+    min-height: 1rem;
+    margin-bottom: -9rem;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
+    transition: min-height 0.5s ease;
+}
+.container6b:hover {
+    cursor: pointer;
+    min-height: 23rem;
+}
+.container6b p{
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.container6b a{
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.container6b H3{
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: -2rem;
+}
+
 .container7 {
     align-items: center;
     justify-content: center;
     font-weight: bold;
     font-size: 3rem;
     text-align: center;
-    margin-top: -2rem;
+    margin-top: -5rem;
     margin-bottom: 2rem;
     color: #00295f;
+}
+.container7 p {
+    font-size: 2rem;
 }
 
 .container8 {
@@ -301,8 +349,11 @@ h2 {
     margin-top: 0rem;
     color: #ffffff;
 }
+.container8 p{
+    font-size: 2rem;
+}
 .container8 a {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: normal;
     color: #acd0ff;
 }
@@ -321,7 +372,7 @@ h2 {
     flex-direction: column;
     color: #006eff;
     background-color: #ffffff;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 20px;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
@@ -329,9 +380,10 @@ h2 {
 }
 .container10 p{
     color: #a0c9ff;
+    font-size: 1.5rem;
 }
 .container10 a{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #006eff;
 }
 
@@ -346,24 +398,25 @@ h2 {
     max-width: 35rem;
 }
 .container11 a{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #00295f;
 }
 .container11 p{
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: normal;
     color: #00295f;
 }
 .container12 {
-    margin-top: 0rem;
+    scale: 75%;
+    margin-top: -7.5rem;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 1rem;
     background-color: #ffffff;
     border-radius: 20px;
-    min-width: 78rem;
+    min-width: 85rem;
     box-shadow: 0px 6px 34px rgba(0, 0, 0, 0.6);
 }
 
@@ -371,8 +424,8 @@ h2 {
     width: 200px;
     height: 60px;
     color: black;
-    background-color: #006eff;
-    color: #ffffff;
+    color: white;
+    background-color: #a8ceff;
     border-width: 1px;
     border-radius: 10px;
     font-size: 1.5rem;
@@ -384,8 +437,8 @@ h2 {
     width: 200px;
     height: 60px;
     color: black;
-    background-color: #414141;
     color: #ffffff;
+    background-color: #006eff;
     border-width: 0px;
     border-radius: 10px;
     cursor: pointer;

@@ -1,0 +1,173 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% 
+    {
+        opacity: 0;
+    }
+    100% 
+    {
+        opacity: 1;
+    }
+}
+
+header {
+	align-items:center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+nav {
+    display: flex;
+	align-items:center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.link a {
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: #ffffff;
+}
+.link a::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-radius: 10rem;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #006eff;
+    transition: all 0.3s ease;
+}
+.link a:hover::after {
+    width: 70%;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    padding: 2rem;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 1rem;
+}
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.image {
+    scale: 50%;
+    margin-top: -4rem;
+    margin-bottom: -4rem;
+    margin-left: -4rem;
+    margin-right: -3rem;
+}
+.image2 {
+    display: flex;
+    justify-content: center;
+    transform: scale(0.15);
+    margin-top: -12rem;
+    margin-bottom: -12rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2 {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #949494;
+    max-width: 47rem;
+}
+
+.container3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.1rem;
+    padding: 1rem;
+    background-color: #ecedff;
+    border-radius: 10px;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-right: 20rem;
+    font-weight: bold;
+}
+#id1 {
+    color: black;
+    cursor: pointer;
+}
+#id1:hover {
+    color: blue;
+    cursor: pointer;
+}
+#id2 {
+    color: black;
+    cursor: pointer;
+}
+#id2:hover {
+    color: blue;
+    cursor: pointer;
+}
+#id3 {
+    color: black;
+    cursor: pointer;
+}
+#id3:hover {
+    color: blue;
+    cursor: pointer;
+}
+#id4 {
+    color: black;
+    cursor: pointer;
+}
+#id4:hover {
+    color: blue;
+    cursor: pointer;
+}
+#id5 {
+    color: black;
+    cursor: pointer;
+}
+#id5:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+hr {
+	margin-left: 0rem;
+	margin-right: 0rem;
+	border: none; /* Remove default border */
+	height: 0.1rem;  /* Set the thickness */
+	background-color: #363636; /* Set the color */
+}
